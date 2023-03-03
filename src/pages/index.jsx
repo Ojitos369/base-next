@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <React.Fragment>
             <p>
-                <Link href='test'>
+                <Link to={`/test`}>
                     Vamos para el test
                 </Link>
             </p>

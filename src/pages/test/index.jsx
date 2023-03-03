@@ -1,12 +1,15 @@
+import React from 'react';
 import { MyComponent } from "@/components/MyComponent";
 
 const Test = () => {
     return (
-        <p>
-            Hola desde Test
-            <br />
-            <MyComponent />
-        </p>
+        <React.Fragment>
+            <p className='font-black'>
+                Hola desde Test
+                <br />
+                <MyComponent />
+            </p>
+        </React.Fragment>
     )
 }
 export default Test;
