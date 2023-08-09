@@ -24,7 +24,7 @@ const MyComponent = () => {
                     />
 
             <p>
-                <Link to={`/`}>
+                <Link href={`/`}>
                     Para la casa
                 </Link>
             </p>

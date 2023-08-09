@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { MyComponent } from "@/components/MyComponent";
 
 const Test = () => {
     return (
-        <React.Fragment>
+        <Fragment>
             <p className='font-black'>
                 Hola desde Test
                 <br />
-                <MyComponent />
             </p>
-        </React.Fragment>
+            <MyComponent />
+        </Fragment>
     )
 }
 export default Test;
